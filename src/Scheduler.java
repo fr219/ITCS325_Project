@@ -52,11 +52,11 @@ public class Scheduler {
             processList.add(new Process(pid, at, bt, pr));
         }
 
-        System.out.println("\nProcesses Entered:");
-        for (Process p : processList) {
-            System.out.printf("PID: %d, Arrival: %d, Burst: %d, Priority: %d\n",
-                    p.pid, p.arrivalTime, p.burstTime, p.priority);
-        }
+//        System.out.println("\nProcesses Entered:");
+//        for (Process p : processList) {
+//            System.out.printf("PID: %d, Arrival: %d, Burst: %d, Priority: %d\n",
+//                    p.pid, p.arrivalTime, p.burstTime, p.priority);
+//        }
 
 
 
