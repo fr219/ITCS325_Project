@@ -33,7 +33,7 @@ class Process { // class for the data structure
     }
 }
 
-public class Main {
+public class Scheduler {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         List<Process> processList = new ArrayList<>();
