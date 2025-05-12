@@ -48,7 +48,10 @@ public class Scheduler {
 
             if (pid == 0 && at == 0 && bt == 0 && pr == 0)
                 break;
-
+            if (bt <= 0 || at < 0 || pr < 0) {
+                System.out.println("Invalid input. Please Make sure that all values are positive and burst time is greater than 0.");
+                continue;
+            }
             processList.add(new Process(pid, at, bt, pr));
         }
 
@@ -92,11 +95,17 @@ public class Scheduler {
         }
 
         // ---- Gantt Chart Output ----
-        System.out.println("\nGantt Chart:");
-        for (String entry : gantt) {
-            System.out.print("|" + entry);
-        }
-        System.out.println("|");
+       System.out.println("\nGantt Chart:");
+       System.out.print("       ");
+       for (int i = 0; i < gantt.size(); i++) {
+           System.out.printf("%-3d", i);
+       }
+       System.out.println();
+       System.out.print("       ");
+       for (String entry : gantt) {
+         System.out.printf("|%-2s", entry);
+       }
+       System.out.println("|");
 
         // ---- Process Table and Averages ----
         double totalTAT = 0, totalWT = 0, totalRT = 0;
@@ -113,5 +122,7 @@ public class Scheduler {
         System.out.printf("\nAverage Turnaround Time: %.2f\n", totalTAT / n);
         System.out.printf("Average Waiting Time: %.2f\n", totalWT / n);
         System.out.printf("Average Response Time: %.2f\n", totalRT / n);
+        sc.close();
+        // ---- End of Program ----
     }
 }
