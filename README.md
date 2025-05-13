@@ -95,12 +95,13 @@ Average Response Time: 1.33
 
 ## 👩‍💻 Authors
 
-- Name: [Your Name]
-- ID: [Your ID]
-- Section: [Your Section]
+![Fatema Redha Hamza](https://github.com/fr219)
+![Sara Mansoor Mahmood](https://github.com/Sara202109880) 
+![Fatima Mohamed Hasan Abdulla](https://github.com/ftmaalt)
+![Eman Rauf](https://github.com/femannn077)
 
 ---
 
 ## 📝 Note
 
-This project is part of an academic assignment to simulate CPU scheduling in a controlled environment. It does **not interact with real operating system processes**, but rather uses theoretical modeling for educational purposes.
+This project is part of an academic assignment to simulate CPU scheduling. It does **not interact with real operating system processes**, but rather uses theoretical modeling for educational purposes.
