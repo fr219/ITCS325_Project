@@ -91,9 +91,13 @@ public class Scheduler {
                 System.out.println("\nOne or more lines were invalid. All data has been cleared.");
                 System.out.println("Please re-enter the processes.\n");
                 continue;
+            } else if (processList.isEmpty()) {
+                System.out.println(" No valid processes were entered. Please enter at least one process.\n");
+                continue;
             } else {
                 break;
             }
+
         }
 
 
