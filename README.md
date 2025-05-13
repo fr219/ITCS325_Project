@@ -70,17 +70,19 @@ It is designed to:
 0 0 0 0
 ```
 
-<img src="img.png"></img>
+<p align="center">
+  <img src="img.png" alt="Simulation Image" width="500">
+</p>
 
 
 ---
 
 ## 👩‍💻 Authors
 
-![Fatema Redha Hamza](https://github.com/fr219)
-![Sara Mansoor Mahmood](https://github.com/Sara202109880) 
-![Fatima Mohamed Hasan Abdulla](https://github.com/ftmaalt)
-![Eman Rauf](https://github.com/femannn077)
+[Fatema Redha Hamza](https://github.com/fr219) <br/>
+[Sara Mansoor Mahmood](https://github.com/Sara202109880) <br/>
+[Fatima Mohamed Hasan Abdulla](https://github.com/ftmaalt)<br/>
+[Eman Rauf](https://github.com/emannn077)
 
 ---
 
