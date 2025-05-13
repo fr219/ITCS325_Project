@@ -62,35 +62,17 @@ It is designed to:
 
 ---
 
-## 📥 Input Format
+## 📥 Input Format & 📤 Output Sample
 ```
 1 0 4 2
 2 1 3 1
 3 2 2 3
 0 0 0 0
 ```
-- `PID`: Process ID (any unique integer).
-- `ArrivalTime`: When the process arrives.
-- `BurstTime`: How long the process needs CPU time.
-- `Priority`: Lower numbers = higher priority.
 
----
+<img src="img.png"></img>
 
-## 📤 Output Sample
-```
-Gantt Chart:
-0 1 2 3 4 5 6 7
-|P1|P1|P2|P2|P2|P3|P3|P1|
 
-PID AT BT PR CT TAT WT RT
-P1 0 4 2 8 8 4 0
-P2 1 3 1 5 4 1 1
-P3 2 2 3 7 5 3 3
-
-Average Turnaround Time: 5.67
-Average Waiting Time: 2.67
-Average Response Time: 1.33
-```
 ---
 
 ## 👩‍💻 Authors
